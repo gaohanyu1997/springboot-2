@@ -1,0 +1,40 @@
+person:
+#  userName: zhangsan
+# 单引号会将 \n 作为字符串输出 双引号会将 \n 作为换行数据
+# 双引号不会转义 单引号会转义  \n：换行
+#  userName: 'zhangsan \n 李四'
+  userName: "zhangsan \n 李四"
+  boss: true
+  birth: 2022/02/02
+  age: 18
+#  interests: [篮球,足球,网球]
+  interests:
+    - 篮球
+    - 足球
+    - 网球
+#  animal: [熊猫,大象,老虎]
+  animal:
+    - 熊猫
+    - 大象
+    - 老虎
+#  score:
+#    english: 95,
+#    math: 82
+  score: {english:90,math:80}
+  salarys:
+    - 999.99
+    - 998.98
+    - 997.97
+  pet:
+    name: 阿狗
+    weight: 99.99
+  allPets:
+    sick:
+      - {name: 阿狗,weight: 98.01}
+      - name: 阿猫
+        weight: 98.02
+      - name: 阿虫
+        weight: 77.77
+    health:
+      - {name: 阿花,weight: 98.01}
+      - {name: 阿明,weight: 98.98}
